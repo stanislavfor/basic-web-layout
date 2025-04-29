@@ -254,6 +254,8 @@ span {
 .top-items-title {
     width: 316px;
     transition: transform 10s;
+    text-align: center;
+    align-items: center;
 }
 
 .top-items-title h2 {
@@ -280,7 +282,7 @@ span {
     font-weight: 400;
     line-height: 17px;
     letter-spacing: 0;
-    text-align: left;
+    text-align: center;
     transition: transform 10s;
 }
 
@@ -471,14 +473,6 @@ span {
     justify-content: space-around;
 }
 
-.subscribe {
-    transition: transform 2s;
-}
-
-.subscribe:hover {
-    transform: scale(1.02);
-}
-
 .subscribe-part {
     width: 360px;
     display: flex;
@@ -489,7 +483,7 @@ span {
 }
 
 .subscribe-part:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .subscribe__icon {
@@ -520,7 +514,7 @@ span {
 }
 
 .subscribe-form:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 .subscribe-form__title {
