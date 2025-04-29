@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 1920px;
+    min-height: 900px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-link {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-heading {
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.paragraph-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.section-heading {
+    color: coral;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.section-items {
+    /* --- added styles --- */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
