@@ -5,6 +5,10 @@
     src: local("Lato"), url("fonts/Lato-Light.ttf") format("ttf"), url("fonts/Lato-Regular.ttf") format("ttf"), url("fonts/Lato-SemiBold.ttf") format("ttf"), url("fonts/Lato-Medium.ttf") format("ttf"), url("fonts/Lato-Bold.ttf") format("ttf");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Lato", "Arial", serif;
     margin: auto;
